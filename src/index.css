@@ -1,0 +1,27 @@
+@import "tailwindcss";  
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#root{
+  width: 100vw;
+  height: 100vh;
+}
+
+header{
+  width: 100%;
+  height: 20%;
+}
+
+main{
+  width: 100%;
+  height: 60%;
+}
+
+footer{
+  width: 100%;
+  height: 20%;
+}
