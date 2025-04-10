@@ -31,26 +31,18 @@ export const Slider = () => {
 
   return (
     <div className='relative'>
-      <div className='carousel rounded-box w-64' ref={carouselRef}>
+      <div className='carousel rounded-box md:w-100 w-64' ref={carouselRef}>
         <div
           className='carousel-item w-full cursor-pointer'
           onClick={() => handleLink("https://matromol.com/")}
         >
-          <img
-            src='/matromol.png'
-            className='w-full h-65'
-            alt='Tailwind CSS Carousel component'
-          />
+          <img src='/matromol.png' className='w-full h-65' alt='Matromol' />
         </div>
         <div
           className='carousel-item w-full cursor-pointer'
           onClick={() => handleLink("https://hornojoaquin.es/")}
         >
-          <img
-            src='/horno.png'
-            className='w-full h-65'
-            alt='Tailwind CSS Carousel component'
-          />
+          <img src='/horno.png' className='w-full h-65' alt='Horno Joaquín' />
         </div>
         <div
           className='carousel-item w-full cursor-pointer'
@@ -58,21 +50,13 @@ export const Slider = () => {
             handleLink("https://bonsaicrea.com/en/inicio-english/")
           }
         >
-          <img
-            src='/bonsai.png'
-            className='w-full h-65'
-            alt='Tailwind CSS Carousel component'
-          />
+          <img src='/bonsai.png' className='w-full h-65' alt='Bonsai' />
         </div>
         <div
           className='carousel-item w-full cursor-pointer'
           onClick={() => handleLink("https://lecar.com.co/")}
         >
-          <img
-            src='/lecar.png'
-            className='w-full h-65'
-            alt='Tailwind CSS Carousel component'
-          />
+          <img src='/lecar.png' className='w-full h-65' alt='Le car' />
         </div>
         <div
           className='carousel-item w-full cursor-pointer'
@@ -87,13 +71,13 @@ export const Slider = () => {
         <div className='absolute justify-between transform -translate-y-1/2 left-50 right-50 top-1/2 hidden md:flex'>
           <button
             onClick={scrollPrev}
-            className='btn btn-circle btn-lg bg-base-100 opacity-70 hover:opacity-100 text-3xl'
+            className='btn btn-circle btn-lg bg-base-100 opacity-70 hover:opacity-100 text-3xl text-[#ebe22f]'
           >
             ❮
           </button>
           <button
             onClick={scrollNext}
-            className='btn btn-circle btn-lg bg-base-100 opacity-70 hover:opacity-100 text-3xl'
+            className='btn btn-circle btn-lg bg-base-100 opacity-70 hover:opacity-100 text-3xl text-[#ebe22f]'
           >
             ❯
           </button>

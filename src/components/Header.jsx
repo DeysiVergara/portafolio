@@ -1,6 +1,6 @@
 export const Header = () => {
   return (
-    <div className='navbar shadow-sm bg-neutral text-neutral-content'>
+    <div className='navbar shadow-sm bg-neutral text-[#ebe22f]'>
       <div className='flex-1 px-4'>
         <img className='w-35' src='/logofooter.png' />
       </div>
@@ -27,7 +27,7 @@ export const Header = () => {
                 </li>
                 <li className='hover:bg-base-300 hover:text-black rounded-md transition-colors duration-200'>
                   <a href='https://lecar.com.co/' target='_blank'>
-                    Lecar
+                    Le Car
                   </a>
                 </li>
                 <li className='hover:bg-base-300 hover:text-black rounded-md transition-colors duration-200'>
@@ -46,16 +46,41 @@ export const Header = () => {
           <li>
             <details>
               <summary>
-                <a href='#footer'>Contáctanos</a>
+                <a href='#equipo'>Equipo</a>
               </summary>
               <ul className='bg-neutral rounded-t-none p-2'>
                 <li className='hover:bg-base-300 hover:text-black rounded-md transition-colors duration-200'>
-                  <a href='Instagram' target='_blank'>
-                    Instagram
+                  <a
+                    href='https://www.linkedin.com/in/andreina-medina-yaquer/'
+                    target='_blank'
+                  >
+                    Andreína Medina Yáquer
                   </a>
                 </li>
                 <li className='hover:bg-base-300 hover:text-black rounded-md transition-colors duration-200'>
-                  <a href='Whatsapp' target='_blank'>
+                  <a
+                    href='https://www.linkedin.com/in/deysivergara/'
+                    target='_blank'
+                  >
+                    Deysi Meliza Vergara Dávila
+                  </a>
+                </li>
+              </ul>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>
+                <a href='#footer'>Contáctanos</a>
+              </summary>
+              <ul className='bg-neutral rounded-t-none p-2'>
+                {/* <li className='hover:bg-base-300 hover:text-black rounded-md transition-colors duration-200'>
+                  <a href='Instagram' target='_blank'>
+                    Instagram
+                  </a>
+                </li> */}
+                <li className='hover:bg-base-300 hover:text-black rounded-md transition-colors duration-200'>
+                  <a href='https://wa.me/+51983469574' target='_blank'>
                     Whatsapp
                   </a>
                 </li>

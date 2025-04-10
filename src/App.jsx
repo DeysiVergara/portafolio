@@ -11,7 +11,9 @@ function App() {
       <main className='bg-blue-100'>
         <Hero />
         <section id='projects' className='py-20 text-center bg-white'>
-          <h2 className='text-3xl font-bold mb-4'>Trabajos</h2>
+          <h2 className='text-3xl font-bold mb-4'>
+            Trabajos Realizados en Wordpress
+          </h2>
           <Slider />
         </section>
       </main>
