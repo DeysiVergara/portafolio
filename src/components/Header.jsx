@@ -1,8 +1,8 @@
 export const Header = () => {
   return (
-    <div className='navbar shadow-sm bg-neutral text-neutral-content mb-20'>
-      <div className='flex-1'>
-        <img className='w-48' src='/logofooter.png' />
+    <div className='navbar shadow-sm bg-neutral text-neutral-content'>
+      <div className='flex-1 px-4'>
+        <img className='w-35' src='/logofooter.png' />
       </div>
       <div className='flex-none'>
         <ul className='menu menu-horizontal px-1'>
