@@ -71,13 +71,13 @@ export const Slider = () => {
         <div className='absolute justify-between transform -translate-y-1/2 left-50 right-50 top-1/2 hidden md:flex'>
           <button
             onClick={scrollPrev}
-            className='btn btn-circle btn-lg bg-base-100 opacity-70 hover:opacity-100 text-3xl text-[#ebe22f]'
+            className='btn btn-circle btn-lg bg-base-100 opacity-70 hover:opacity-100 text-3xl'
           >
             ❮
           </button>
           <button
             onClick={scrollNext}
-            className='btn btn-circle btn-lg bg-base-100 opacity-70 hover:opacity-100 text-3xl text-[#ebe22f]'
+            className='btn btn-circle btn-lg bg-base-100 opacity-70 hover:opacity-100 text-3xl'
           >
             ❯
           </button>
