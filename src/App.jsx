@@ -4,6 +4,7 @@ import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
 import { Projects } from "./components/Projects";
 import { db } from "./data/db";
+import { Slider2 } from "./components/Slider2";
 
 function App() {
   const [data] = useState(db);
@@ -17,13 +18,9 @@ function App() {
           className='bg-white container mx-auto mt-20 text-center'
         >
           <h1 className='text-center text-lg md:text-3xl font-bold'>
-            NUESTROS TRABAJOS EN WORDPRESS
+            MIS TRABAJOS EN WORDPRESS
           </h1>
-          <div className='flex flex-wrap justify-center mt-10 mx-5'>
-            {data.map((project) => (
-              <Projects key={project.id} project={project} />
-            ))}
-          </div>
+          <Slider2></Slider2>
         </section>
       </main>
       <Footer />

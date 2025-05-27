@@ -6,7 +6,7 @@ export const Footer = () => {
       id='footer'
     >
       <aside className='flex justify-center sm:justify-start w-full sm:w-auto'>
-        <img src='/logofooter.png' alt='Logo RESALTO' className='w-48' />
+        {/* <img src='/logofooter.png' alt='Logo RESALTO' className='w-48' /> */}
       </aside>
       <nav>
         <h6 className='footer-title'>Social</h6>

@@ -2,7 +2,8 @@ export const Header = () => {
   return (
     <div className='navbar shadow-sm bg-neutral text-[#ebe22f]'>
       <div className='flex-1 px-4'>
-        <img className='w-35' src='/logofooter.png' />
+        {/* <img className='w-35' src='/logofooter.png' /> */}
+        <h1>Deysi Meliza Vergara Dávila</h1>
       </div>
       <div className='flex-none'>
         <ul className='menu menu-horizontal px-1'>
@@ -13,8 +14,8 @@ export const Header = () => {
               </summary>
               <ul className='bg-neutral rounded-t-none p-2'>
                 <li className='hover:bg-base-300 hover:text-black rounded-md transition-colors duration-200'>
-                  <a href='https://matromol.com/' target='_blank'>
-                    Matromol
+                  <a href='https://www.icfes.gov.co/' target='_blank'>
+                    Instituto Colombiano para la evaluación de la educación
                   </a>
                 </li>
                 <li className='hover:bg-base-300 hover:text-black rounded-md transition-colors duration-200'>
@@ -35,15 +36,10 @@ export const Header = () => {
                     Horno Joaquin
                   </a>
                 </li>
-                <li className='hover:bg-base-300 hover:text-black rounded-md transition-colors duration-200'>
-                  <a href='https://proyectok68.com/' target='_blank'>
-                    Proyecto 68
-                  </a>
-                </li>
               </ul>
             </details>
           </li>
-          <li>
+          {/* <li>
             <details>
               <summary>
                 <a href='#equipo'>Equipo</a>
@@ -67,7 +63,7 @@ export const Header = () => {
                 </li>
               </ul>
             </details>
-          </li>
+          </li> */}
           <li>
             <details>
               <summary>

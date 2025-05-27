@@ -3,12 +3,12 @@ export const Hero = () => {
     <div
       className='
       hero
-    min-h-[20vh]           // mobile
+    min-h-[17vh]           // mobile
     md:min-h-[50vh]       // desktop
     bg-center
     bg-cover
 '
-      style={{ backgroundImage: "url('/banner.jpg')" }}
+      style={{ backgroundImage: "url('/banner.png')" }}
     ></div>
   );
 };
